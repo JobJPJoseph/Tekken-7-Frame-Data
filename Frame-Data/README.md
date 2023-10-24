@@ -6,4 +6,6 @@ I want to create a reference for players who want to know more infomation about 
 to learn.
 
 ## Home Page
-This page will represent just general about the characters like their image and name.
+This page will represent just general info about the characters like their image and name.
+The page will contain a trailer from the game at the top. The main content in the center of the page
+the footer and the bottom.
