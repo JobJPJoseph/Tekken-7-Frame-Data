@@ -17,14 +17,14 @@ body {
     position: sticky;
     top: 0;
     z-index: 1;
-    height: 100px;
+    height: 75px;
     width: 100%;
     align-items: center;
 }
 
 #block__img--logo-left {
-    height: 75px;
-    width: 200px;
+    height: 50px;
+    width: 150px;
     border: 2px dashed firebrick;
 }
 
@@ -96,11 +96,32 @@ body {
 
 
 #block__img--wallpaper {
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    height: 400px;
-    background-image: url(https://www.ps4wallpapers.com/wp-content/uploads/2017/03/PS4Wallpapers.com_t7frbgofficialsite-1920x1080-1056x594.jpg);
+    height: 600px;
+    background-image: url(https://wallpapercave.com/wp/wp2665254.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-position-y: top;
+    overflow: hidden;
+    z-index: 0;
 }
+
+#block__div--transparent-box {
+    height: 100%;
+    /* width: 750px; */
+    width: 0px;
+    background-color: darkblue;
+    /* left: 600px; */
+    left: 0;
+    z-index: 1;
+    box-shadow: rgb(112, 0, 0) 20px 0px 300px 550px;
+}
+
+/* #block__div--shadow-box-1 {
+    z-index: 2;
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+} */
