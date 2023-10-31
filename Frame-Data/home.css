@@ -7,6 +7,7 @@ body {
     background-color: rgb(15, 0, 0);
     margin: 0px;
     border: 4px solid white;
+    color: white;
 }
 
 #block__sec--top-piece {
@@ -25,6 +26,7 @@ body {
     height: 75px;
     width: 100%;
     align-items: center;
+    background-color: white;
 }
 
 #block__img--logo-left {
@@ -40,14 +42,16 @@ body {
     align-items: center;
     width: 100%;
     height: 100%;
+
 }
 
 .block__a--link-box {}
 
 .inline__a--link-box {
     text-decoration: none;
-    color: white;
-    font-size: 25px;
+    font-size: 20px;
+    color: black;
+
 }
 
 #flex__sec-nav--right-box {
@@ -142,4 +146,36 @@ body {
     top: 100%;
     z-index: 4;
     box-shadow: rgb(15, 0, 0) 20px 0px 75px 110px;
+}
+
+#flex__sec__header--flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    z-index: 10;
+}
+
+#flex-block__h2-p--absolute-text {
+    font-size: 35px;
+    margin: 0px 0px 15px;
+}
+
+#flex-block__p--center {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+
+#flex-block__div--header-decorative-box {
+    height: 2px;
+    background-color: white;
+    width: 60%;
+}
+
+#block__main-margins-character-info {
+
 }
