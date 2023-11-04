@@ -180,7 +180,7 @@ body {
 
 .flex__sec--flex-row-1-by-3 {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -189,20 +189,38 @@ body {
     flex-direction: row;
     flex-wrap: nowrap;
     height: 150px;
-    width: 500px;
+    width: 350px;
     background-color: royalblue;
-    margin: 10px 30px;
+    margin: 10px 5px;
     text-decoration: none;
     color: white;
+    border: 2px solid peru;
 }
 
 .characters-png {
     height: 150px;
     width: 150px;
     background-color: black;
+    border: 2px solid green;
+
 }
 
 .character-mini-bio {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    border: 1px dashed oldlace;
+    width: 100%;
+    min-width: 100px;
+}
+
+.character-info-title {
+    align-self: flex-start;
+    margin: 15px 0px 0px 15px;
+    font-size: 25px;
+}
+
+.character-info-season {
+    margin: 2px 0px 0px 30px;
+    font-size: 18px;
 }
