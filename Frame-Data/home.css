@@ -173,9 +173,10 @@ body {
 
 #block__main-margins-character-info {
     border: 3px solid lawngreen;
-    margin: 0px 125px;
-    height: 500px;
+    margin: 0px 115px;
+    /* height: 500px; */
     background-color: gray;
+    padding: 20px 10px;
 }
 
 .flex__sec--flex-row-1-by-3 {
