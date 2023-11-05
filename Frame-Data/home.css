@@ -209,7 +209,7 @@ body {
 .character-mini-bio {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     border: 1px dashed oldlace;
     width: 100%;
     min-width: 100px;
@@ -222,6 +222,6 @@ body {
 }
 
 .character-info-season {
-    margin: 2px 0px 0px 30px;
+    margin: 2px 0px 0px 50px;
     font-size: 18px;
 }
