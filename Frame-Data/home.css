@@ -10,6 +10,11 @@ body {
     color: white;
 }
 
+@font-face {
+    font-family: 'Oswald';
+    src: url(./Oswald/Oswald-VariableFont_wght.ttf);
+}
+
 #block__sec--top-piece {
     margin-bottom: 150px;
 }
@@ -18,7 +23,6 @@ body {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    border: 3px solid gold;
     background-color: transparent;
     position: sticky;
     top: 0;
@@ -172,10 +176,8 @@ body {
 }
 
 #block__main-margins-character-info {
-    border: 3px solid lawngreen;
     margin: 0px 115px;
-    /* height: 500px; */
-    background-color: gray;
+    background-color: transparent;
     padding: 20px 10px;
 }
 
@@ -191,18 +193,21 @@ body {
     flex-wrap: nowrap;
     height: 150px;
     width: 350px;
-    background-color: royalblue;
+    background-color: transparent;
     margin: 10px 5px;
     text-decoration: none;
     color: white;
-    border: 2px solid peru;
+    border-left: 3px solid red;
+}
+
+.character-info:hover {
+    background: linear-gradient(transparent, red);
 }
 
 .characters-png {
     height: 150px;
     width: 150px;
     background-color: black;
-    border: 2px solid green;
     background-image: url(https://getwallpapers.com/wallpaper/full/7/3/d/1036650-best-tekken-7-wallpapers-1920x1080-for-ipad.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -213,7 +218,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    border: 1px dashed oldlace;
     width: 100%;
     min-width: 100px;
 }
@@ -222,9 +226,12 @@ body {
     align-self: flex-start;
     margin: 15px 0px 0px 15px;
     font-size: 25px;
+    font-family: 'Oswald';
+    font-weight: 600;
 }
 
 .character-info-season {
     margin: 2px 0px 0px 50px;
     font-size: 18px;
+    font-family: 'Oswald';
 }
