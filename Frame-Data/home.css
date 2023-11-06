@@ -31,10 +31,11 @@ body {
     width: 100%;
     align-items: center;
     background-color: white;
+    border-bottom: 3px solid rgb(37, 37, 37);
 }
 
 #block__img--logo-left {
-    height: 50px;
+    height: 100%;
     width: 150px;
 }
 
@@ -43,7 +44,7 @@ body {
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    width: 400px;
     height: 100%;
 
 }
@@ -52,7 +53,8 @@ body {
     text-decoration: none;
     font-size: 20px;
     color: black;
-
+    font-family: 'Oswald';
+    font-weight: 600;
 }
 
 #flex__sec-nav--right-box {
@@ -237,18 +239,13 @@ body {
 }
 
 footer {
-    height: 250px;
+    height: 200px;
     width: 100%;
-    background-color: red;
-    background-image: url(https://getwallpapers.com/wallpaper/full/7/3/d/1036650-best-tekken-7-wallpapers-1920x1080-for-ipad.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: white;
 }
 
 #footer__background-shadow {
-    height: inherit;
+    height: 10px;
     width: inherit;
-    background-color: black;
-    opacity: 80%;
+    background-color: rgb(37, 37, 37);
 }
