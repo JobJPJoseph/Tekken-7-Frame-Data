@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    position: relative;
+}
+
+body {
+    background-color: rgb(15, 0, 0);
+    margin: 0px;
+    border: 4px solid white;
+    color: white;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url(./Oswald/Oswald-VariableFont_wght.ttf);
+}
+
+#block__sec--top-piece {
+    margin-bottom: 150px;
+}
+
+#flex__sec--sticky-gold-black {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: transparent;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    height: 75px;
+    width: 100%;
+    align-items: center;
+    background-color: white;
+    border-bottom: 3px solid rgb(37, 37, 37);
+}
+
+#block__img--logo-left {
+    height: 100%;
+    width: 150px;
+}
+
+#flex__sec-nav--middle-box {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 100%;
+
+}
+
+.inline__a--link-box {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-family: 'Oswald';
+    font-weight: 600;
+}
+
+#flex__sec-nav--right-box {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-right: 100px;
+}
+
+
+
+.block__nav__img {
+    margin: 0px 10px 0px;
+}
+
+#facebook {
+    height: 40px;
+    width: 40px;
+}
+
+#twitch {
+    height: 30px;
+    width: 30px;
+}
+
+#twitter-x {
+    height: 30px;
+    width: 40px;
+}
+
+#youtube {
+    height: 40px;
+    width: 40px;
+}
+
+#email {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+}
+
+#discord {
+    height: 30px;
+    width: 40px;
+}
+
+#video-wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    height: 360px;
+}
+
+#bryan-vid {
+    width: 640px;
+    height: 360px;
+    background-color: white;
+    box-shadow: white 0px 0px 5px;
+}
