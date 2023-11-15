@@ -154,21 +154,23 @@ body {
     flex-direction: column;
     align-items: center;
     position: absolute;
-    top: 150px;
+    top: 170px;
     left: 150px;
     z-index: 10;
+    font-family: 'Oswald';
 }
 
 #flex-block__h2-p--absolute-text {
     font-size: 35px;
     margin: 0px 0px 15px;
+    font-size: 50px;
 }
 
 #flex-block__p--center {
     text-align: center;
     font-size: 30px;
     font-weight: bold;
-    margin: 0;
+    margin: 0px 0px 10px;
 }
 
 #flex-block__div--header-decorative-box {
